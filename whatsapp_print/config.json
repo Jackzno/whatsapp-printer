@@ -9,7 +9,7 @@
   "ingress": false,
   "map": ["config:rw", "share:rw"],
   "options": {
-    "allowed_numbers": ["4915734499567@c.us"],
+    "allowed_numbers": ["4915731234567@c.us"],
     "allowed_extensions": ["pdf", "png", "jpg", "odt", "docx", "xlsx"],
     "printer_name": "HP_DeskJet_3630_series"
   },
