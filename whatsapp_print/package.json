@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-print",
+  "version": "1.0.0",
+  "description": "WhatsApp Print Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.21.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

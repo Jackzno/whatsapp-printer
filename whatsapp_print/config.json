@@ -1,0 +1,21 @@
+{
+  "name": "WhatsApp Print",
+  "version": "1.0.0",
+  "slug": "whatsapp_print",
+  "description": "Druckt über WhatsApp empfangene Dateien automatisch",
+  "startup": "services",
+  "boot": "auto",
+  "arch": ["amd64", "armv7", "aarch64"],
+  "ingress": false,
+  "map": ["config:rw", "share:rw"],
+  "options": {
+    "allowed_numbers": ["4915734499567@c.us"],
+    "allowed_extensions": ["pdf", "png", "jpg", "odt", "docx", "xlsx"],
+    "printer_name": "HP_DeskJet_3630_series"
+  },
+  "schema": {
+    "allowed_numbers": ["str"],
+    "allowed_extensions": ["str"],
+    "printer_name": "str"
+  }
+}
